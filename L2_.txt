@@ -3,3 +3,19 @@
 
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The staging area contains the files that will be commited the next time. The working directory is the folder where we are currently at and the repository is where the versions of all previous commits are being tracked.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+	When commiting, add a note with the details about the commit. (not sure of this, though)
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Some situations would be when making different versions of the same working code or adding new experimental features. This makes sure there is always code that is surely working and other branches that do not influence in the oriiginal one (or the master branch).
+
+5. How do the diagrams help you visualize the branch structure?
+	As they organize the text in a visual way, it is easier to see what are the branches.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	When 2 branches are merged, the final commit as both previous heads as parents.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Auto merging is faster and easier to be done. It compares each commit and automatically checks the differences to generate a new commit converging both of them. Manual merges takes more time and are mode delicate as the code needs to be checked and changed/fixed by the developer.
+
