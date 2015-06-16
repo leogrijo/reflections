@@ -8,3 +8,8 @@
 	Fork - A special type of clone, but done on GitHub when we want to use someone else's repository without making changes to it (and/or we don't have access/permition to edit it).
 	Clone - When a remote repository is cloned to our local machine in order for us to edit it locally.
 	Branch - When a repository is divided into more than one and we keep working on both. Generally used adding a new feature or making tests that could break the main branch (branching it avoids that risk).
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+	That way you would have access to any change made to it in case you needed to go offline. Making it easier to understand what was done and how that would affect what you are currently doing. You would also be able to use git log and git diff to check those changes.
+
+
