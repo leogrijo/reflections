@@ -14,3 +14,6 @@
 
 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	I would probably use some sort of file sharing software, such as Dropbox. Then we'd manually update the files. The harder part would be to check the changes made and update the files accordingly when differences were identified. Keeping track and rolling back to earlier versions would also be really hard, as we'd have to keep files for each of them. Having access to the files would probably be easier as they would be already there and would only have to be copied.
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	When submitting changes that the admin of the repository needs to check and approve before merging into the master repo. (When making tests and adding new features, for example.) The benefit of making it separately is to make sure no bug or mistake is added to master.
